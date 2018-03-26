@@ -4,7 +4,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
   debug: true,
-  devtool: "source-map", //Don't understand; Different for Production Mode
+  devtool: "source-map", //By doing this, you can see your code in the browser even if it is minified
   noInfo: false,
   entry: [
     path.resolve(__dirname, 'src/index')
